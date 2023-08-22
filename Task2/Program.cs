@@ -10,11 +10,11 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            float scores;
-            int avg;
+            byte scores;
+            float avg;
 
             scores = 5 + 4 + 5 + 2 + 4 + 3 + 4 + 2 + 2;
-            avg = (int)scores / 9;
+            avg = scores/ 9;
 
             Console.WriteLine("Ученик получил следующие оценки: 5, 4, 5, 2, 4, 3, 4, 2, 2");
             Console.ReadKey();
